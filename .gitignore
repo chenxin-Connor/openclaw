@@ -1,0 +1,53 @@
+# Build outputs
+build/
+dist/
+*.apk
+*.ipa
+*.dmg
+*.pkg
+
+# Dependencies
+node_modules/
+vendor/
+.gradle/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.npm/
+.gradle/
+
+# Temporary
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Test outputs
+coverage/
+.nyc_output/
+
+# Agent files
+.agent/
+.agents/
